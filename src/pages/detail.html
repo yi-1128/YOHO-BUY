@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品详情</title>
+    <link rel="stylesheet" href="../lib/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/detail.min.css">
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <link rel="stylesheet" href="../css/public.min.css">
+    <link rel="stylesheet" href="../css/magnifier.min.css">
+</head>
+<body>
+    <!-- hedaer  头部-->
+    <header class="container-fluid in_head">
+        <div class="container head">
+            <div class="h_left">
+                <span class="icon-hamburger"></span>
+                <a href="../index.html">YOHO!BUY 有货</a>
+            </div>
+            <div class="h_mark">
+                <ul>
+                    <li><a href=""><span class="en1">YOHO!</span><span class="ch ch1">集团官网</span></a></li>
+                    <li><a href=""><span class="en2">YOHO!BOYS</span><span class="ch ch2">男生潮流</span></a></li>
+                    <li><a href=""><span class="en3">YOHO!GIRLS</span><span class="ch ch3">女生潮流</span></a></li>
+                    <li><a href=""><span class="en4">Mars</span><span class="ch ch4">新鲜好去处</span></a></li>
+                    <li><a href=""><span class="en5">YO'HOOD</span><span class="ch ch5">潮流嘉年华</span></a></li>
+                </ul>
+            </div>
+            <div class="h_red">
+                <span class="icon-hamburger"></span>
+                <a href="https://www.yohobuy.com/help/detail?id=150&contId=147" target="_blank">关于防诈骗的重要提醒</a>
+            </div>
+            <div class="h_right">
+                <ul>
+                    <li>
+                        Hi~<a
+                            href="./login.min.html">[请登录]</a><a
+                            href="./registor.min.html">[免费注册] </a>
+                    </li>
+                    <li class="li-two">
+                        <a href="">MY有货
+                            <span class="icon-hamburger MY_icon-hamburger"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <span class="icon-hamburger  order_icon-hamburger"></span>
+                        <a href="">我的订单 </a>
+                    </li>
+                    <li>
+                        <span class="icon-hamburger  collec_icon-hamburger"></span>
+                        <a href="">我的收藏 </a>
+                    </li>
+                    <li>
+                        <span class="icon-hamburger  news_icon-hamburger"></span>
+                        <a href="">消息 </a>
+                    </li>
+                    <li class="service">
+                        <span class="iconfont icon-erji"></span>
+                        <a href="">客户服务 </a>
+                        <div class="ser_mark">
+                            <p>
+                                在线客服
+                            </p>
+                            <p>
+                                服务中心
+                            </p>
+                        </div>
+                    </li>
+                    <li class="follow">
+                        <span class="icon-hamburger  follow_icon-hamburger"></span>
+                        <a href="">关注有货 </a>
+                        <div class="fol_mark">
+                            <a href="">
+                                <img src="../img/qr-wenle.png" alt="">
+                                <p>微信扫一扫</p>
+                                <p>关注公众号，送球鞋</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="phone">
+                        <span class="icon-hamburger  phone_icon-hamburger"></span>
+                        <a href="">手机版</a>
+                        <div class="pho_mark">
+                            <a href="">
+                                <img src="../img/qr-wenle-wechat.png" alt="">
+                                <p>下载手机客户端</p>
+                                <p>更多客户端</p>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- logo 固定宽度-->
+    <div class="logo container">
+        <a href="../index.html" class="a_logo"></a>
+        <div class="input">
+            <input type="text" class="inp">
+            <input type="submit" value="" class="ser">
+            <a href="./cart.min.html"><span class="iconfont icon-gouwuche"></span></a>
+            <div class="gwc_mark">
+                <img src="../img/empty_car.png" alt="">
+                <p>您的购物车暂无商品</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 导航 -->
+    <nav class="container-fluid big_nav">
+        <div class="container nav">
+            <ul>
+                <li><a href="">新品到着</a></li>
+                <li><a href="">品牌一览</a></li>
+                <li class="li_mark"><a href="">服饰</a></li>
+                <li class="li_mark"><a href="">鞋履</a></li>
+                <li class="li_mark"><a href="">包袋</a></li>
+                <li class="li_mark"><a href="">配饰 其他</a></li>
+                <li><a href="">SALE</a></li>
+                <li><a href="">证照/协议</a></li>
+            </ul>
+
+            
+    </nav>
+    <!-- 二级导航 -->
+    <div class="container-fluid nav_mark_box">
+        <div class="container nav_mark">
+            <ul class="nav_mark_ul">
+                <li>
+                    <a href="">
+                        <p class="nav_black">上装</p>
+                    </a>
+                </li>
+                <li><a href="">
+                        <p class="nav_grey">T恤</p>
+                    </a></li>
+                <li><a href="">
+                        <p class="nav_red">卫衣</p>
+                    </a></li>
+                <li><a href="">
+                        <p class="nav_red">夹克</p>
+                    </a></li>
+                <li><a href="">
+                        <p class="nav_grey">衬衫</p>
+                    </a></li>
+                <li><a href="">
+                        <p class="nav_grey">POLO</p>
+                    </a></li>
+                <li><a href="">
+                        <p class="nav_grey">防风外套</p>
+                    </a></li>
+                <li>
+                    <a href="">
+                        <p class="nav_black">下装</p>
+                    </a>
+                </li>
+                <li><a href="">
+                        <p class="nav_grey">休闲裤</p>
+                    </a></li>
+            </ul>
+            <ul class="nav_mark_ul">
+                <li>
+                    <a href="">
+                        <p class="nav_grey">短裤</p>
+                    </a>
+                </li>
+                <li><a href="">
+                        <p class="nav_grey">T恤</p>
+                    </a></li>
+                <li><a href="">
+                        <p class="nav_red">卫衣</p>
+                    </a></li>
+                <li><a href="">
+                        <p class="nav_black">夹克</p>
+                    </a></li>
+                <li><a href="">
+                        <p class="nav_grey">衬衫</p>
+                    </a></li>
+                <li><a href="">
+                        <p class="nav_grey">POLO</p>
+                    </a></li>
+                <li><a href="">
+                        <p class="nav_grey">防风外套</p>
+                    </a></li>
+                <li>
+                    <a href="">
+                        <p class="nav_gery">下装</p>
+                    </a>
+                </li>
+                <li><a href="">
+                        <p class="nav_red">休闲裤</p>
+                    </a></li>
+            </ul>
+            <ul class="nav_mark_ul">
+                <li>
+                    <a href="">
+                        <p class="nav_red">上装</p>
+                    </a>
+                </li>
+                <li><a href="">
+                        <p class="nav_grey">T恤</p>
+                    </a></li>
+                <li><a href="">
+                        <p class="nav_red">卫衣</p>
+                    </a></li>
+                <li><a href="">
+                        <p class="nav_red">夹克</p>
+                    </a></li>
+                <li><a href="">
+                        <p class="nav_grey">衬衫</p>
+                    </a></li>
+                <li><a href="">
+                        <p class="nav_grey">POLO</p>
+                    </a></li>
+                <li><a href="">
+                        <p class="nav_grey">防风外套</p>
+                    </a></li>
+                <li>
+                    <a href="">
+                        <p class="nav_red">下装</p>
+                    </a>
+                </li>
+                <li><a href="">
+                        <p class="nav_red">休闲裤</p>
+                    </a></li>
+            </ul>
+            <div class="nav_mark_right">
+                <img src="../img/01a40d82ac6a65d20ef6b7b9b37463ae62.jpg" alt="">
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <h1 class="container-fluid title">
+        <p class="container">
+            <img src="../img/01c2cfe93dcbd3b42e94ec3465176a8cc6.jpg" alt="">
+            <a href="../index.html"><span class="iconfont icon-tubiao"></span></a>
+        </p>
+    </h1>
+
+    <!-- 放大镜 商品详情-->
+    <main class="container main">
+        <h5><a href="../index.html">BOYS首页 > 上衣 > 夹克 > </a> <a>SGM 宽松日式夹克</a></h5>
+        <div class="main_box">
+            <!-- 放大镜 -->
+            <div class="imgdet wrap">
+                <div class="imgpart">
+                    <!-- 图片展示 -->
+                    <div class="pic">
+                        <img src="../img/025ab3dddddcdecf3d65ab24d8bb4e37c1.jpg" alt="">
+                        <!-- 镜片 -->
+                        <div class="magnify"></div>
+                    </div>
+                    <!-- 放大后的图片, 放大后的图片的尺寸要设置为展示图片的倍数（2倍）-->
+                    <div class="bigpic">
+                        <img src="../img/010c4ff317ebed57ac7a1973f49fa4e286.jpg" alt="">
+                    </div>
+                </div>
+                <!-- 右侧图片列表 -->
+                <div class="imglist">
+                    <ul>
+                        <li class="active">
+                            <img src="../img/010c4ff317ebed57ac7a1973f49fa4e286.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="../img/025ab3dddddcdecf3d65ab24d8bb4e37c1.jpg" alt="">
+                        </li>
+                    </ul>
+                </div>
+                
+                <p class="share">
+                    分 享 ：
+                    <span></span>
+                    <span></span> 
+                    <span></span> 
+                    <span></span> 
+                </p>
+            </div>
+
+            <div class="main_r">
+                <h3 id="good_name">SMG 宽松日式夹克</h3>
+                <div class="price">
+                    <p>吊牌价 : <span>￥799</span></p>
+                    <p id="good_price">促销价 : <span>￥399</span> <span>5.0折</span></p>
+                </div>
+                <div class="msg">
+                    <p class="color">
+                        颜色 ： <span id="good_color"><img src="../img/010c4ff317ebed57ac7a1973f49fa4e286.jpg" alt="" id="good_src">黑</span>
+                    </p>
+                    <p class="size">
+                        尺码 ：
+                        <span><a href="javascript:;">S</a></span>
+                        <span><a href="javascript:;">M</a></span>
+                        <span><a href="javascript:;">L</a></span>
+                        <span><a href="javascript:;">XL</a></span>
+                    </p>
+                    <p class="size_mark">
+                        <span>165-82A／胸围 116cm</span>
+                        <span>170-86A／胸围 120cm</span>
+                        <span>175-88A／胸围 124cm</span>
+                        <span>180-92A／胸围 128cm</span>
+                    </p>
+                    <p class="num">
+                        数量 ：
+                        <button> - </button>
+                        <input type="text" name="" id="good_num" value="1">
+                        <button> +</button>
+                    </p>
+                </div>
+                <div class="add">
+                    <a href="javascript:;">
+                        <span class="iconfont icon-gouwuche"></span>
+                        加入购物车
+                    </a>
+                    <a href="javascript:;">
+                        <span class="iconfont icon-icon4"></span>
+                        收藏此商品
+                    </a>
+                </div>
+                <div class="show">
+                    服务说明 ：
+                    <span class="iconfont icon-zhengque"></span>
+                    品牌保障 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span class="iconfont icon-zhengque"></span>
+                    支持7天退货&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="">更多</a>
+                </div>
+                <div class="ewm">
+                    <a href="">
+                        <img src="../img/01dce3f4c011e664dcfed9cd836377aeb7.png" alt="">
+                        <span>手机客户端<br>扫一扫购买</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+
+    <div class="container message">
+        <p class="txt">商品信息</p>
+        <div class="msg1">
+            <ul class="msg">
+                <li>编　　号: 52287112</li>
+                <li>原  产  地: 中国</li>
+                <li>袖　　长: 长袖</li>
+            </ul>
+            <ul class="msg">
+                <li>颜　　色: 黑</li>
+                <li>经典款型: 道袍</li>
+                <li>版　　型: 宽松</li>
+            </ul>
+            <ul class="msg">
+                <li>性　　别: 男款</li>
+                <li>衣　　长: 适中</li>
+                <li>厚　　度: 适中</li>
+            </ul>
+        </div>
+        <div class="msg2">
+            <ul>
+                <li>
+                    弹　性： 小 
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    大
+                </li>
+                <li>
+                    柔软度： 软 
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span> 
+                    硬 
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    厚　度： 薄
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    厚
+                </li>
+                <li>
+                    透气性： 弱 
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span> 
+                    强 
+                </li>
+            </ul>
+        </div>
+        <div class="msg3">
+            <p class="msg_tit"><span></span><b>材质洗涤</b><span></span></p>
+            <div class="msg3_l">
+                <div class="msg3_t">
+                    <div class="l_txt">
+                        <img src="../img/01288e4be985c3b5a143d703e2aa678aef.jpg" alt="">
+                        <span>
+                            棉<br>cotton
+                        </span>
+                    </div>
+                    <div class="r_txt">
+                        用各种洗涤剂，可手洗机洗，但不宜氯漂，宜阴干，避免曝晒，以免深色衣物褪色，在日光下晾晒时，将里面朝外。浸泡时间不能太长，避免褪色，深色与浅色衣服最好请分开洗涤，避免染色。棉质商品一般易皱、易缩水、易变形购买时请注意。
+                    </div>
+                </div>
+                
+                <div class="msg3_t">
+                    <div class="l_txt">
+                        <img src="../img/01288e4be985c3b5a143d703e2aa678aef.jpg" alt="">
+                        <span>
+                            棉<br>cotton
+                        </span>
+                    </div>
+                    <div class="r_txt">
+                        涤纶类的服装可机洗，可手洗，可干洗，可用毛刷刷洗。不可曝晒，不宜烘干。熨烫温度不能超过110度，熨烫时一定要打蒸汽，不能干烫 。在日光下晾晒时，将里面朝外。
+                    </div>
+                </div>
+                <p>
+                    温馨提示：因产品工艺不同，洗涤方式请以吊牌信息为准
+                </p>
+            </div>
+        </div>
+        <div class="msg4">
+            <p class="msg_tit"><span></span><b>尺码信息</b><span></span></p>
+            <table>
+                <tr>
+                    <td>吊牌尺码</td>
+                    <td>参考尺码</td>
+                    <td>肩宽</td>
+                    <td>胸围</td>
+                    <td>袖长</td>
+                    <td>前衣长</td>
+                    <td>后衣长</td>
+                </tr>
+                <tr>
+                    <td>S</td>
+                    <td>165/82A</td>
+                    <td>58</td>
+                    <td>116</td>
+                    <td>46</td>
+                    <td>73</td>
+                    <td>73</td>
+                </tr>
+                <tr>
+                    <td>M</td>
+                    <td>165/82A</td>
+                    <td>58</td>
+                    <td>116</td>
+                    <td>46</td>
+                    <td>73</td>
+                    <td>73</td>
+                </tr>
+                <tr>
+                    <td>L</td>
+                    <td>165/82A</td>
+                    <td>58</td>
+                    <td>116</td>
+                    <td>46</td>
+                    <td>73</td>
+                    <td>73</td>
+                </tr>
+                <tr>
+                    <td>XL</td>
+                    <td>165/82A</td>
+                    <td>58</td>
+                    <td>116</td>
+                    <td>46</td>
+                    <td>73</td>
+                    <td>73</td>
+                </tr>
+            </table>
+            <p class="sm">
+            ※ 以上尺寸为实物人工测量，因测量方式不同会有1-2CM误差，相关数据仅作参考，以收到实物为准。 单位：CM
+※ 参考尺码因衣服版型、剪裁不同会有误差，仅供参考</p>
+
+            <img src="../img/1.jpg" alt="">
+        </div>
+        <div class="msg5">
+            <p class="msg_tit"><span></span><b>商品详情</b><span></span></p>
+            <p class="sm">
+                SMG 宽松日式夹克，酷黑整体，显瘦易搭不易脏，日式道袍夹克版型，更添几分随性与自由，搭配银色撞色拼条，为整体造型画龙点睛，随时随地hold住春秋日常~
+            </p>
+            <img src="../img/010c4ff317ebed57ac7a1973f49fa4e286.jpg" alt="" class="img1">
+            <img src="../img/025ab3dddddcdecf3d65ab24d8bb4e37c1.jpg" alt=""class="img1">
+            <img src="../img/0245d50ac1561fc28c5a40514374c01730.jpg" alt="">
+            <img src="../img/0248b64a5c02dcae958f50579017b0899b.jpg" alt="">
+            <img src="../img/024b6676be8f3cff6d0e4619530ab38b6b.jpg" alt="">
+            <img src="../img/02461822517af7875dfc455a302d780888.jpg" alt="">
+            <img src="../img/01e7079b4ad63b15c8a3f447a1546c1cfb.jpg" alt="">
+        </div>
+        <!-- <div class="msg6">
+            <p class="msg_tit"><span></span><b>商品评价</b><span></span></p>
+        </div> -->
+        <div class="msg7">
+            <p class="msg_tit"><span></span><b>商品咨询</b><span></span></p>
+            <div class="msg7_txt">
+                <div class="msg7_box">
+                    <p><img src="../img/q.png" alt="">商品都是正品吗？</p>
+                    <p><img src="../img/a.png" alt="">有货www.yohobuy.com所售的商品均经品牌授权，正品保障，请您放心购买。</p>
+                </div>
+                <div class="msg7_box">
+                    <p><img src="../img/q.png" alt="">尺码表上的尺码标准吗？</p>
+                    <p><img src="../img/a.png" alt="">有货所售商品尺寸均为人工实物测量，可能会存在1-2cm的正常误差范围。</p>
+                </div>
+                <div class="msg7_box">
+                    <p><img src="../img/q.png" alt="">图片颜色和实物颜色相同吗？</p>
+                    <p><img src="../img/a.png" alt="">有货所有商品均采用实物专业拍摄，但由于个人显示器不同，可能导致实物与图片存在色差，最终颜色以实物为准。</p>
+                </div>
+                <div class="msg7_box">
+                    <p><img src="../img/q.png" alt="">发货及配送</p>
+                    <p><img src="../img/a.png" alt="">普通商品24小时发货，部分需调拨商品2-7天发货。合作配送的快递公司有：韵达、EMS、顺丰、中通、申通。发货后江浙沪地区1-4个工作日送达，其它地区3-6个工作日送达，少数民族和县级以下城市8-11个工作日送达。配送会由于天气，交通等不可抗拒的客观因素造成您收货时间延迟。需要说明的是：化妆品、电子产品等属于航空违禁品，需走陆运，敬请谅解。</p>
+                </div>
+                
+            </div>
+        </div>
+        <div class="msg8">
+            <p class="msg_tit"><span></span><b>购买咨询</b><span></span></p>
+            <form action="">
+                <textarea name="" id="" cols="30" rows="10" placeholder="请输入您的问题"></textarea>
+                <input type="submit" value="提交咨询">
+            </form>
+        </div>
+        <div class="msg9">
+            <p class="msg_tit"><span></span><b>特别说明</b><span></span></p>
+            <div class="msg9_one">
+                <h4>广告禁用词</h4>
+                <p>根据新广告法规定，所有页面不得出现广告禁用词。我们在此郑重表态：支持新广告法，也为了不影响消费者正常购物，我们已经在排查修改；本页面所有广告禁用词在此声明失效，不作为赔付理由，请为真正的消费者让路。维权是双向的，希望各位消费者理解，在此感谢！</p>
+            </div>
+            <div class="msg9_one">
+                <h4>页面价格</h4>
+                <p>根据新广告法规定，所有页面不得出现广告禁用词。我们在此郑重表态：支持新广告法，也为了不影响消费者正常购物，我们已经在排查修改；本页面所有广告禁用词在此声明失效，不作为赔付理由，请为真正的消费者让路。维权是双向的，希望各位消费者理解，在此感谢！</p>
+            </div>
+            <div class="msg9_one">
+                <h4>价格异常</h4>
+                <p>根据新广告法规定，所有页面不得出现广告禁用词。我们在此郑重表态：支持新广告法，也为了不影响消费者正常购物，我们已经在排查修改；本页面所有广告禁用词在此声明失效，不作为赔付理由，请为真正的消费者让路。维权是双向的，希望各位消费者理解，在此感谢！</p>
+            </div>
+        </div>
+        <div class="msg10">
+            <a href="javascript:;">
+                售后服务 
+                <span class="iconfont icon-jiantouyou"></span>
+            </a>
+            <div class="msg10_box">
+                <div class="msg10_mark">
+                    <p class="msg_tit"><span></span><b>退换货流程</b><span></span></p>
+                    <img src="../img/after-service.png" alt="">
+                </div>
+            </div>
+            <p>
+                <img src="../img/service.png" alt="">
+            </p>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="container-fluid">
+        <div class="foot container">
+            <div class="foot-top">
+                <div class="foot-icon">
+                    <span class="iconfont icon-zhengpinbaozhang2"></span>
+                    <i>100%</i>
+                    <b>品牌正品</b>
+                </div>
+                <div class="foot-icon">
+                    <span class="iconfont icon-wuliu"></span>
+                    <i>100%</i>
+                    <b>品牌正品</b>
+                </div>
+                <div class="foot-icon">
+                    <span class="iconfont icon-weixin"></span>
+                    <i>100%</i>
+                    <b>品牌正品</b>
+                </div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+            </div>
+            <div class="foot-list">
+                <ul>
+                    <li><b>新手专区</b></li>
+                    <li>注册登录</li>
+                    <li>购物结算</li>
+                    <li>下单支付</li>
+                    <li>收货评价</li>
+                </ul>
+                <ul>
+                    <li><b>新手专区</b></li>
+                    <li>注册登录</li>
+                    <li>购物结算</li>
+                    <li>下单支付</li>
+                    <li>收货评价</li>
+                </ul>
+                <ul>
+                    <li><b>新手专区</b></li>
+                    <li>注册登录</li>
+                    <li>购物结算</li>
+                    <li>下单支付</li>
+                    <li>收货评价</li>
+                </ul>
+                <ul>
+                    <li><b>新手专区</b></li>
+                    <li>注册登录</li>
+                    <li>购物结算</li>
+                    <li>下单支付</li>
+                    <li>收货评价</li>
+                </ul>
+                <ul>
+                    <li><b>新手专区</b></li>
+                    <li>注册登录</li>
+                    <li>购物结算</li>
+                    <li>下单支付</li>
+                    <li>收货评价</li>
+                </ul>
+                <ul>
+                    <li><b>新手专区</b></li>
+                    <li>注册登录</li>
+                    <li>购物结算</li>
+                    <li>下单支付</li>
+                    <li>收货评价</li>
+                </ul>
+                <ul>
+                    <li><b>新手专区</b></li>
+                    <li>注册登录</li>
+                    <li>购物结算</li>
+                    <li>下单支付</li>
+                    <li>收货评价</li>
+                </ul>
+            </div>
+            <div class="foot-link">
+                <div class="foot-link-left">
+                    <a href="">
+                        <img src="../img/ebsIcon-new.png" alt="">
+                    </a>
+                    <a href="">
+                        <img src="../img/credit-flag3.png" alt="">
+                    </a>
+                    <a href="">
+                        <img src="../img/isc2.png" alt="">
+                    </a>
+                </div>
+                <div class="foot-link-right">
+                    <ul>
+                        <li><a href="">返回首页</a> | </li>
+                        <li><a href="">YOHO!BUY 有货</a> | </li>
+                        <li><a href="">穿衣搭配（男生版）</a> | </li>
+                        <li><a href="">隐私条款</a> | </li>
+                        <li><a href="">友情链接</a> | </li>
+                        <li><a href="">YOHO!BUY 有货</a> | </li>
+                        <li><a href="">穿衣搭配（女生版）</a> | </li>
+                        <li><a href="">潮流品类大全</a> | </li>
+                        <li><a href="">返回首页</a> | </li>
+                        <li><a href="">联系我们</a> | </li>
+                        <li><a href="">商家入驻</a> | </li>
+                        <li><a href="">返回首页</a> | </li>
+                        <li><a href="">潮流品类大全</a> | </li>
+                        <li><a href="">潮流商品大全</a> | </li>
+                        <li><a href="">返回首页</a> | </li>
+                        <li><a href="">返回首页</a> | </li>
+                        <li><a href="">潮流人气</a> | </li>
+                        <li><a href="">潮流视频</a> | </li>
+                        <li><a href="">潮流潮牌</a> | </li>
+                        <li><img src="../img/police.png" alt=""><a href="">苏公网安备 32010502010132号</a> | </li>
+                        <li><a href="">出版物经营许可证</a> | </li>
+                        <li><a href="">苏B2-20120395</a> | </li>
+                        <li><a href="">食品经营许可证</a></li>
+                    </ul>
+                </div>               
+            </div>
+            <p class="foot-bot">
+                CopyRight © 2007-2020 南京新与力文化传播有限公司
+                <a href="">苏公网安备 32010502010132号</a>
+                NewPower Co. 版权所有 江苏省南京市建邺区嘉陵江东街18号南京国家广告产业园5栋17，18楼 025-87781000
+            </p>
+        </div>
+    </footer>
+
+    <!-- 回到顶部按钮 -->
+    <div class="to_top">
+        <p>
+            <img src="../img/icon_sweep.png" alt="" class="to_top_ewm"> 
+            <span class="to_top_mark">
+                <b class="mark_ewm">
+                    <img src="../img/qr-wenle.png" alt="">
+                    <i>微信扫一扫</i>
+                    <i>关注公众号，送球鞋</i>
+                </b>
+                
+                <b class="mark_ewm">
+                    <img src="../img/qr-wenle.png" alt="">
+                    <i>微信扫一扫</i>
+                    <i>关注公众号，送球鞋</i>
+                </b>
+            </span>
+        </p>
+        <a class="to-top">
+            <img src="../img/icon_back.png" alt="">
+        </a>
+
+    </div>
+
+    <!-- 右侧广告框 -->
+    <div class="ad">
+        <a href="javascript:;" class="close">×</a>
+        <img src="../img/qr.png" alt="">
+    </div>
+
+    <script src="../lib/jquery-1.12.4.min.js"></script>
+    <script src="../lib/bootstrap.min.js"></script>
+    <script src="../lib/jquery.cookie.js"></script>
+    <script src="../lib/jquery.toTop.min.js"></script>
+    <script src="../js/public.min.js"></script>
+    <script src="../js/detail.min.js"></script>
+    <!-- 放大镜 -->
+    <script src="../js/magnifier.min.js"></script>
+</body>
+</html>

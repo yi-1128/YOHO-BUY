@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>商品列表</title>
+    <link rel="stylesheet" href="../lib/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/list.min.css">
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <link rel="stylesheet" href="../css/public.min.css">
+</head>
+
+<body>
+    <!-- hedaer  头部-->
+    <header class="container-fluid in_head">
+        <div class="container head">
+            <div class="h_left">
+                <span class="icon-hamburger"></span>
+                <a href="../index.html">YOHO!BUY 有货</a>
+            </div>
+            <div class="h_mark">
+                <ul>
+                    <li><a href="../index.html"><span class="en1">YOHO!</span><span class="ch ch1">集团官网</span></a></li>
+                    <li><a href="../index.html"><span class="en2">YOHO!BOYS</span><span class="ch ch2">男生潮流</span></a></li>
+                    <li><a href="../index.html"><span class="en3">YOHO!GIRLS</span><span class="ch ch3">女生潮流</span></a></li>
+                    <li><a href="../index.html"><span class="en4">Mars</span><span class="ch ch4">新鲜好去处</span></a></li>
+                    <li><a href="../index.html"><span class="en5">YO'HOOD</span><span class="ch ch5">潮流嘉年华</span></a></li>
+                </ul>
+            </div>
+            <div class="h_red">
+                <span class="icon-hamburger"></span>
+                <a href="https://www.yohobuy.com/help/detail?id=150&contId=147" target="_blank">关于防诈骗的重要提醒</a>
+            </div>
+            <div class="h_right">
+                <ul>
+                    <li>
+                        Hi~<a href="./login.min.html">[请登录]</a><a href="./registor.min.html">[免费注册] </a>
+                    </li>
+                    <li class="li-two">
+                        <a href="">MY有货
+                            <span class="icon-hamburger MY_icon-hamburger"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <span class="icon-hamburger order_icon-hamburger"></span>
+                        <a href="">我的订单 </a>
+                    </li>
+                    <li>
+                        <span class="icon-hamburger collec_icon-hamburger"></span>
+                        <a href="">我的收藏 </a>
+                    </li>
+                    <li>
+                        <span class="icon-hamburger news_icon-hamburger"></span>
+                        <a href="">消息 </a>
+                    </li>
+                    <li class="service">
+                        <span class="iconfont icon-erji"></span>
+                        <a href="">客户服务 </a>
+                        <div class="ser_mark">
+                            <p>
+                                在线客服
+                            </p>
+                            <p>
+                                服务中心
+                            </p>
+                        </div>
+                    </li>
+                    <li class="follow">
+                        <span class="icon-hamburger follow_icon-hamburger"></span>
+                        <a href="">关注有货 </a>
+                        <div class="fol_mark">
+                            <a href="">
+                                <img src="../img/qr-wenle.png" alt="">
+                                <p>微信扫一扫</p>
+                                <p>关注公众号，送球鞋</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="phone">
+                        <span class="icon-hamburger phone_icon-hamburger"></span>
+                        <a href="">手机版</a>
+                        <div class="pho_mark">
+                            <a href="">
+                                <img src="../img/qr-wenle-wechat.png" alt="">
+                                <p>下载手机客户端</p>
+                                <p>更多客户端</p>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- logo 固定宽度-->
+    <div class="logo container">
+        <a href="../index.html" class="a_logo"></a>
+        <div class="input">
+            <input type="text" class="inp">
+            <input type="submit" value="" class="ser">
+            <a href="./cart.min.html"><span class="iconfont icon-gouwuche"></span></a>
+            <div class="gwc_mark">
+                <img src="../img/empty_car.png" alt="">
+                <p>您的购物车暂无商品</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 导航 -->
+    <nav class="container-fluid big_nav">
+        <div class="container nav">
+            <ul>
+                <li><a href="">新品到着</a></li>
+                <li><a href="">品牌一览</a></li>
+                <li class="li_mark"><a href="">服饰</a></li>
+                <li class="li_mark"><a href="">鞋履</a></li>
+                <li class="li_mark"><a href="">包袋</a></li>
+                <li class="li_mark"><a href="">配饰 其他</a></li>
+                <li><a href="">SALE</a></li>
+                <li><a href="">证照/协议</a></li>
+            </ul>
+
+
+    </div></nav>
+    <!-- 二级导航 -->
+    <div class="container-fluid nav_mark_box">
+        <div class="container nav_mark">
+            <ul class="nav_mark_ul">
+                <li>
+                    <a href="">
+                        <p class="nav_black">上装</p>
+                    </a>
+                </li>
+                <li><a href="">
+                        <p class="nav_grey">T恤</p>
+                    </a></li>
+                <li><a href="">
+                        <p class="nav_red">卫衣</p>
+                    </a></li>
+                <li><a href="">
+                        <p class="nav_red">夹克</p>
+                    </a></li>
+                <li><a href="">
+                        <p class="nav_grey">衬衫</p>
+                    </a></li>
+                <li><a href="">
+                        <p class="nav_grey">POLO</p>
+                    </a></li>
+                <li><a href="">
+                        <p class="nav_grey">防风外套</p>
+                    </a></li>
+                <li>
+                    <a href="">
+                        <p class="nav_black">下装</p>
+                    </a>
+                </li>
+                <li><a href="">
+                        <p class="nav_grey">休闲裤</p>
+                    </a></li>
+            </ul>
+            <ul class="nav_mark_ul">
+                <li>
+                    <a href="">
+                        <p class="nav_grey">短裤</p>
+                    </a>
+                </li>
+                <li><a href="">
+                        <p class="nav_grey">T恤</p>
+                    </a></li>
+                <li><a href="">
+                        <p class="nav_red">卫衣</p>
+                    </a></li>
+                <li><a href="">
+                        <p class="nav_black">夹克</p>
+                    </a></li>
+                <li><a href="">
+                        <p class="nav_grey">衬衫</p>
+                    </a></li>
+                <li><a href="">
+                        <p class="nav_grey">POLO</p>
+                    </a></li>
+                <li><a href="">
+                        <p class="nav_grey">防风外套</p>
+                    </a></li>
+                <li>
+                    <a href="">
+                        <p class="nav_gery">下装</p>
+                    </a>
+                </li>
+                <li><a href="">
+                        <p class="nav_red">休闲裤</p>
+                    </a></li>
+            </ul>
+            <ul class="nav_mark_ul">
+                <li>
+                    <a href="">
+                        <p class="nav_red">上装</p>
+                    </a>
+                </li>
+                <li><a href="">
+                        <p class="nav_grey">T恤</p>
+                    </a></li>
+                <li><a href="">
+                        <p class="nav_red">卫衣</p>
+                    </a></li>
+                <li><a href="">
+                        <p class="nav_red">夹克</p>
+                    </a></li>
+                <li><a href="">
+                        <p class="nav_grey">衬衫</p>
+                    </a></li>
+                <li><a href="">
+                        <p class="nav_grey">POLO</p>
+                    </a></li>
+                <li><a href="">
+                        <p class="nav_grey">防风外套</p>
+                    </a></li>
+                <li>
+                    <a href="">
+                        <p class="nav_red">下装</p>
+                    </a>
+                </li>
+                <li><a href="">
+                        <p class="nav_red">休闲裤</p>
+                    </a></li>
+            </ul>
+            <div class="nav_mark_right">
+                <img src="../img/01a40d82ac6a65d20ef6b7b9b37463ae62.jpg" alt="">
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- banner -->
+    <div class="container banner">
+    </div>
+    <main class="container main">
+        <h5><a href="../index.html">BOYS首页 > </a><a>SGM</a></h5>
+        <div class="main_l">
+            <div class="sideMenu">
+                <ul>
+                    <h2>全部品类</h2>
+                    <li class="nLi">
+                        <h3><span class="icon-triangle"></span>上衣</h3>
+                        <ul class="sub">
+                            <li><a href="./detail.min.html">全部上衣</a></li>
+                            <li><a href="./detail.min.html">T恤</a></li>
+                            <li><a href="./detail.min.html">卫衣</a></li>
+                            <li><a href="./detail.min.html">夹克</a></li>
+                            <li><a href="./detail.min.html">衬衫</a></li>
+                            <li><a href="./detail.min.html">背心</a></li>
+                            <li><a href="./detail.min.html">大衣</a></li>
+                            <li><a href="./detail.min.html">羽绒服</a></li>
+                            <li><a href="./detail.min.html">马甲</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nLi">
+                        <h3><span class="icon-triangle"></span>裤装</h3>
+                        <ul class="sub">
+                            <li><a href="">全部裤装</a></li>
+                            <li><a href="">休闲裤</a></li>
+                            <li><a href="">牛仔裤</a></li>
+                            <li><a href="">阔腿裤</a></li>
+                            <li><a href="">短裤</a></li>
+                        </ul>
+                    </li>
+                    <li class="nLi">
+                        <h3><span class="icon-triangle"></span>裙装</h3>
+                        <ul class="sub">
+                            <li><a href="">全部裙装</a></li>
+                            <li><a href="">半身裙</a></li>
+                            <li><a href="">连衣裙</a></li>
+                        </ul>
+                    </li>
+                    <li class="nLi">
+                        <h3><span class="icon-triangle"></span>配饰</h3>
+                        <ul class="sub">
+                            <li><a href="">全部配饰</a></li>
+                            <li><a href="">棒球帽</a></li>
+                            <li><a href="">帽子</a></li>
+                            <li><a href="">其它配饰</a></li>
+                        </ul>
+                    </li>
+                    <li class="nLi">
+                        <h3><span class="icon-triangle"></span>创意生活</h3>
+                        <ul class="sub">
+                            <li><a href="">全部创意生活</a></li>
+                            <li><a href="">其它</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="l_img">
+                <img src="../img/02df37631ceb2ae0ecc8637b76210983d7.jpg" alt="">
+            </div>
+            
+        </div>
+        <div class="main_r">
+            <!-- 商品筛选 -->
+            <div id="choice_box">
+                <dl class="select">
+                    <dt>已选条件：</dt>
+                    <!-- <dd>16英寸<span>x</span></dd>
+                        <dd>核芯显卡<span>x</span></dd> -->
+                </dl>
+                <dl>
+                    <dt>性别：</dt>
+                    <dd>BOYS</dd>
+                    <dd>GIRLS</dd>
+                </dl>
+                <dl>
+                    <dt>价格：</dt>
+                    <dd>￥0-349</dd>
+                    <dd>￥359-439</dd>
+                    <dd>￥440-669</dd>
+                    <dd>￥669以上</dd>
+                </dl>
+                <dl>
+                    <dt>颜色：</dt>
+                    <dd><span></span>红色</dd>
+                    <dd><span></span>白色</dd>
+                    <dd><span></span>橙色</dd>
+                    <dd><span></span>黑色</dd>
+                    <dd><span></span>灰色</dd>
+                    <dd><span></span>棕色</dd>
+                    <dd><span></span>绿色</dd>
+                    <dd><span></span>蓝色</dd>
+                    <dd><span></span>紫色</dd>
+                    <dd><span></span>黄色</dd>
+                </dl>
+                <dl>
+                    <dt>高级选项：</dt>
+                    <dd class="supper">风格</dd>
+                </dl>
+                <dl>
+                    <dd>解构</dd>
+                    <dd>运动</dd>
+                    <dd>简约</dd>
+                    <dd>工装</dd>
+                    <dd>街头</dd>
+                </dl>
+                
+            </div>
+        
+            <!-- 商品列表  -->
+            <div class="main_list">
+                <ul class="list_txt">
+                    <li><a href=""><b>默认</b></a></li>
+                    <li><a href="">人气<span class="iconfont icon-xiasanjiaoxing"></span></a></li>
+                    <li><a href="">新品</a><b><span class="iconfont icon-shangsanjiaoxing"></span><span class="iconfont icon-xiasanjiaoxing"></span></b></li>
+                    <li><a href="">价格</a><b><span class="icon iconfont icon-shangsanjiaoxing"></span><span class="iconfont icon-xiasanjiaoxing"></span></b></li>
+                    <li><a href="">折扣</a><b><span class="icon iconfont icon-shangsanjiaoxing"></span><span class="iconfont icon-xiasanjiaoxing"></span></b></li>
+                    <li><a href="">打折</a><b><span class="icon iconfont icon-shangsanjiaoxing"></span><span class="iconfont icon-xiasanjiaoxing"></span></b></li>
+                    <li><a href="">数量</a><b><span class="icon iconfont icon-shangsanjiaoxing"></span><span class="iconfont icon-xiasanjiaoxing"></span></b></li>
+                </ul>
+                <div class="goods">
+                    <div class="goods_list">
+                        <div class="good">
+                            <a href="./detail.min.html"><img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt=""></a>
+                            <ul>
+                                <li><a href="./detail.min.html">SMG 宽松日式夹克</a></li>
+                                <li><a href="./detail.min.html">SMG</a></li>
+                                <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                            </ul>
+                            <div class="good_mark">
+                                <a href="./detail.min.html"><img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt=""></a>
+                                <ul>
+                                    <li><a href="./detail.min.html">SMG 宽松日式夹克</a></li>
+                                    <li><a href="./detail.min.html">SMG</a></li>
+                                    <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="good">
+                            <img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt="">
+                            <ul>
+                                <li><a href="">SMG 宽松日式夹克</a></li>
+                                <li><a href="">SMG</a></li>
+                                <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                            </ul>
+                            <div class="good_mark">
+                                <a href="./detail.min.html"><img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt=""></a>
+                                <ul>
+                                    <li><a href="">SMG 宽松日式夹克</a></li>
+                                    <li><a href="">SMG</a></li>
+                                    <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="good">
+                            <a href="./detail.min.html"><img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt=""></a>
+                            <ul>
+                                <li><a href="">SMG 宽松日式夹克</a></li>
+                                <li><a href="">SMG</a></li>
+                                <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                            </ul>
+                            <div class="good_mark">
+                                <a href="./detail.min.html"><img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt=""></a>
+                                <ul>
+                                    <li><a href="">SMG 宽松日式夹克</a></li>
+                                    <li><a href="">SMG</a></li>
+                                    <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="good">
+                            <img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt="">
+                            <ul>
+                                <li><a href="">SMG 宽松日式夹克</a></li>
+                                <li><a href="">SMG</a></li>
+                                <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                            </ul>
+                            <div class="good_mark">
+                                <a href="./detail.min.html"><img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt=""></a>
+                                <ul>
+                                    <li><a href="">SMG 宽松日式夹克</a></li>
+                                    <li><a href="">SMG</a></li>
+                                    <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="goods_list">
+                        <div class="good">
+                            <img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt="">
+                            <ul>
+                                <li><a href="">SMG 宽松日式夹克</a></li>
+                                <li><a href="">SMG</a></li>
+                                <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                            </ul>
+                            <div class="good_mark">
+                                <a href="./detail.min.html"><img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt=""></a>
+                                <ul>
+                                    <li><a href="">SMG 宽松日式夹克</a></li>
+                                    <li><a href="">SMG</a></li>
+                                    <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="good">
+                            <img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt="">
+                            <ul>
+                                <li><a href="">SMG 宽松日式夹克</a></li>
+                                <li><a href="">SMG</a></li>
+                                <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                            </ul>
+                            <div class="good_mark">
+                                <a href="./detail.min.html"><img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt=""></a>
+                                <ul>
+                                    <li><a href="">SMG 宽松日式夹克</a></li>
+                                    <li><a href="">SMG</a></li>
+                                    <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="good">
+                            <img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt="">
+                            <ul>
+                                <li><a href="">SMG 宽松日式夹克</a></li>
+                                <li><a href="">SMG</a></li>
+                                <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                            </ul>
+                            <div class="good_mark">
+                                <a href="./detail.min.html"><img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt=""></a>
+                                <ul>
+                                    <li><a href="">SMG 宽松日式夹克</a></li>
+                                    <li><a href="">SMG</a></li>
+                                    <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="good">
+                            <img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt="">
+                            <ul>
+                                <li><a href="">SMG 宽松日式夹克</a></li>
+                                <li><a href="">SMG</a></li>
+                                <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                            </ul>
+                            <div class="good_mark">
+                                <a href="./detail.min.html"><img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt=""></a>
+                                <ul>
+                                    <li><a href="">SMG 宽松日式夹克</a></li>
+                                    <li><a href="">SMG</a></li>
+                                    <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="goods_list">
+                        <div class="good">
+                            <img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt="">
+                            <ul>
+                                <li><a href="">SMG 宽松日式夹克</a></li>
+                                <li><a href="">SMG</a></li>
+                                <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                            </ul>
+                            <div class="good_mark">
+                                <a href="./detail.min.html"><img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt=""></a>
+                                <ul>
+                                    <li><a href="">SMG 宽松日式夹克</a></li>
+                                    <li><a href="">SMG</a></li>
+                                    <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="good">
+                            <img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt="">
+                            <ul>
+                                <li><a href="">SMG 宽松日式夹克</a></li>
+                                <li><a href="">SMG</a></li>
+                                <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                            </ul>
+                            <div class="good_mark">
+                                <a href="./detail.min.html"><img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt=""></a>
+                                <ul>
+                                    <li><a href="">SMG 宽松日式夹克</a></li>
+                                    <li><a href="">SMG</a></li>
+                                    <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="good">
+                            <img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt="">
+                            <ul>
+                                <li><a href="">SMG 宽松日式夹克</a></li>
+                                <li><a href="">SMG</a></li>
+                                <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                            </ul>
+                            <div class="good_mark">
+                                <a href="./detail.min.html"><img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt=""></a>
+                                <ul>
+                                    <li><a href="">SMG 宽松日式夹克</a></li>
+                                    <li><a href="">SMG</a></li>
+                                    <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="good">
+                            <img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt="">
+                            <ul>
+                                <li><a href="">SMG 宽松日式夹克</a></li>
+                                <li><a href="">SMG</a></li>
+                                <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                            </ul>
+                            <div class="good_mark">
+                                <a href="./detail.min.html"><img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt=""></a>
+                                <ul>
+                                    <li><a href="">SMG 宽松日式夹克</a></li>
+                                    <li><a href="">SMG</a></li>
+                                    <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="goods_list">
+                        <div class="good">
+                            <img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt="">
+                            <ul>
+                                <li><a href="">SMG 宽松日式夹克</a></li>
+                                <li><a href="">SMG</a></li>
+                                <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                            </ul>
+                            <div class="good_mark">
+                                <img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt="">
+                                <ul>
+                                    <li><a href="">SMG 宽松日式夹克</a></li>
+                                    <li><a href="">SMG</a></li>
+                                    <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="good">
+                            <img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt="">
+                            <ul>
+                                <li><a href="">SMG 宽松日式夹克</a></li>
+                                <li><a href="">SMG</a></li>
+                                <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                            </ul>
+                            <div class="good_mark">
+                                <img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt="">
+                                <ul>
+                                    <li><a href="">SMG 宽松日式夹克</a></li>
+                                    <li><a href="">SMG</a></li>
+                                    <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="good">
+                            <img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt="">
+                            <ul>
+                                <li><a href="">SMG 宽松日式夹克</a></li>
+                                <li><a href="">SMG</a></li>
+                                <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                            </ul>
+                            <div class="good_mark">
+                                <img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt="">
+                                <ul>
+                                    <li><a href="">SMG 宽松日式夹克</a></li>
+                                    <li><a href="">SMG</a></li>
+                                    <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="good">
+                            <img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt="">
+                            <ul>
+                                <li><a href="">SMG 宽松日式夹克</a></li>
+                                <li><a href="">SMG</a></li>
+                                <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                            </ul>
+                            <div class="good_mark">
+                                <img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt="">
+                                <ul>
+                                    <li><a href="">SMG 宽松日式夹克</a></li>
+                                    <li><a href="">SMG</a></li>
+                                    <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="goods_list">
+                        <div class="good">
+                            <img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt="">
+                            <ul>
+                                <li><a href="">SMG 宽松日式夹克</a></li>
+                                <li><a href="">SMG</a></li>
+                                <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                            </ul>
+                            <div class="good_mark">
+                                <img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt="">
+                                <ul>
+                                    <li><a href="">SMG 宽松日式夹克</a></li>
+                                    <li><a href="">SMG</a></li>
+                                    <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="good">
+                            <img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt="">
+                            <ul>
+                                <li><a href="">SMG 宽松日式夹克</a></li>
+                                <li><a href="">SMG</a></li>
+                                <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                            </ul>
+                            <div class="good_mark">
+                                <img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt="">
+                                <ul>
+                                    <li><a href="">SMG 宽松日式夹克</a></li>
+                                    <li><a href="">SMG</a></li>
+                                    <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="good">
+                            <img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt="">
+                            <ul>
+                                <li><a href="">SMG 宽松日式夹克</a></li>
+                                <li><a href="">SMG</a></li>
+                                <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                            </ul>
+                            <div class="good_mark">
+                                <img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt="">
+                                <ul>
+                                    <li><a href="">SMG 宽松日式夹克</a></li>
+                                    <li><a href="">SMG</a></li>
+                                    <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="good">
+                            <img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt="">
+                            <ul>
+                                <li><a href="">SMG 宽松日式夹克</a></li>
+                                <li><a href="">SMG</a></li>
+                                <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                            </ul>
+                            <div class="good_mark">
+                                <img src="../img/02d0ee00274edfcc3545a7645353ea53b0.jpg" alt="">
+                                <ul>
+                                    <li><a href="">SMG 宽松日式夹克</a></li>
+                                    <li><a href="">SMG</a></li>
+                                    <li><span>￥799.00</span>&nbsp;&nbsp;&nbsp;<span>￥399.00</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- footer -->
+    <footer class="container-fluid">
+        <div class="foot container">
+            <div class="foot-top">
+                <div class="foot-icon">
+                    <span class="iconfont icon-zhengpinbaozhang2"></span>
+                    <i>100%</i>
+                    <b>品牌正品</b>
+                </div>
+                <div class="foot-icon">
+                    <span class="iconfont icon-wuliu"></span>
+                    <i>100%</i>
+                    <b>品牌正品</b>
+                </div>
+                <div class="foot-icon">
+                    <span class="iconfont icon-weixin"></span>
+                    <i>100%</i>
+                    <b>品牌正品</b>
+                </div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+            </div>
+            <div class="foot-list">
+                <ul>
+                    <li><b>新手专区</b></li>
+                    <li>注册登录</li>
+                    <li>购物结算</li>
+                    <li>下单支付</li>
+                    <li>收货评价</li>
+                </ul>
+                <ul>
+                    <li><b>新手专区</b></li>
+                    <li>注册登录</li>
+                    <li>购物结算</li>
+                    <li>下单支付</li>
+                    <li>收货评价</li>
+                </ul>
+                <ul>
+                    <li><b>新手专区</b></li>
+                    <li>注册登录</li>
+                    <li>购物结算</li>
+                    <li>下单支付</li>
+                    <li>收货评价</li>
+                </ul>
+                <ul>
+                    <li><b>新手专区</b></li>
+                    <li>注册登录</li>
+                    <li>购物结算</li>
+                    <li>下单支付</li>
+                    <li>收货评价</li>
+                </ul>
+                <ul>
+                    <li><b>新手专区</b></li>
+                    <li>注册登录</li>
+                    <li>购物结算</li>
+                    <li>下单支付</li>
+                    <li>收货评价</li>
+                </ul>
+                <ul>
+                    <li><b>新手专区</b></li>
+                    <li>注册登录</li>
+                    <li>购物结算</li>
+                    <li>下单支付</li>
+                    <li>收货评价</li>
+                </ul>
+                <ul>
+                    <li><b>新手专区</b></li>
+                    <li>注册登录</li>
+                    <li>购物结算</li>
+                    <li>下单支付</li>
+                    <li>收货评价</li>
+                </ul>
+            </div>
+            <div class="foot-link">
+                <div class="foot-link-left">
+                    <a href="">
+                        <img src="../img/ebsIcon-new.png" alt="">
+                    </a>
+                    <a href="">
+                        <img src="../img/credit-flag3.png" alt="">
+                    </a>
+                    <a href="">
+                        <img src="../img/isc2.png" alt="">
+                    </a>
+                </div>
+                <div class="foot-link-right">
+                    <ul>
+                        <li><a href="">返回首页</a> | </li>
+                        <li><a href="">YOHO!BUY 有货</a> | </li>
+                        <li><a href="">穿衣搭配（男生版）</a> | </li>
+                        <li><a href="">隐私条款</a> | </li>
+                        <li><a href="">友情链接</a> | </li>
+                        <li><a href="">YOHO!BUY 有货</a> | </li>
+                        <li><a href="">穿衣搭配（女生版）</a> | </li>
+                        <li><a href="">潮流品类大全</a> | </li>
+                        <li><a href="">返回首页</a> | </li>
+                        <li><a href="">联系我们</a> | </li>
+                        <li><a href="">商家入驻</a> | </li>
+                        <li><a href="">返回首页</a> | </li>
+                        <li><a href="">潮流品类大全</a> | </li>
+                        <li><a href="">潮流商品大全</a> | </li>
+                        <li><a href="">返回首页</a> | </li>
+                        <li><a href="">返回首页</a> | </li>
+                        <li><a href="">潮流人气</a> | </li>
+                        <li><a href="">潮流视频</a> | </li>
+                        <li><a href="">潮流潮牌</a> | </li>
+                        <li><img src="../img/police.png" alt=""><a href="">苏公网安备 32010502010132号</a> | </li>
+                        <li><a href="">出版物经营许可证</a> | </li>
+                        <li><a href="">苏B2-20120395</a> | </li>
+                        <li><a href="">食品经营许可证</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="foot-bot">
+                CopyRight © 2007-2020 南京新与力文化传播有限公司
+                <a href="">苏公网安备 32010502010132号</a>
+                NewPower Co. 版权所有 江苏省南京市建邺区嘉陵江东街18号南京国家广告产业园5栋17，18楼 025-87781000
+            </p>
+        </div>
+    </footer>
+
+    <!-- 回到顶部按钮 -->
+    <div class="to_top">
+        <p>
+            <img src="../img/icon_sweep.png" alt="" class="to_top_ewm">
+            <span class="to_top_mark">
+                <b class="mark_ewm">
+                    <img src="../img/qr-wenle.png" alt="">
+                    <i>微信扫一扫</i>
+                    <i>关注公众号，送球鞋</i>
+                </b>
+
+                <b class="mark_ewm">
+                    <img src="../img/qr-wenle.png" alt="">
+                    <i>微信扫一扫</i>
+                    <i>关注公众号，送球鞋</i>
+                </b>
+            </span>
+        </p>
+        <a class="to-top">
+            <img src="../img/icon_back.png" alt="">
+        </a>
+
+    </div>
+
+    <!-- 右侧广告框 -->
+    <div class="ad">
+        <a href="javascript:;" class="close">×</a>
+        <img src="../img/qr.png" alt="">
+    </div>
+
+    <script src="../lib/jquery-1.12.4.min.js"></script>
+    <script src="../lib/bootstrap.min.js"></script>
+    <script src="../lib/jquery.toTop.min.js"></script>
+    <script src="../js/public.min.js"></script>
+    <script src="../js/list.min.js"></script>
+</body>
+
+</html>

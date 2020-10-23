@@ -1,0 +1,314 @@
+// header 
+//public中
+
+.main_box{
+    margin-top: 20px;
+    border-top: 3px solid black;
+    padding-top: 20px;
+    .main{
+      width: 1000px;
+      .warn{
+        background-color: #efefef;
+        height: 26px;
+        line-height: 26px;
+        font-size: 12px;
+        text-align: center;
+        .warn_red{
+        font-size: 12px;
+        color: red;
+        }
+      }
+      .main_big{
+        margin-top:100px;
+        height: 500px;
+        .main_big_left{
+          width: 50%;
+          margin-top: 10%;
+          float: left;
+          text-align: center;
+        }
+        .main_big_right{
+          float: right;
+          width: 50%;
+          border-left: 1px solid #666;
+          // background-color: teal;
+          // overflow: hidden;
+          .main_big_right_sml{
+            // position: absolute;
+            .main_big_right_sml_txt{
+              display: inline-block;
+              width: 120px;
+              height: 30px;
+              text-align: center;
+              line-height: 30px;
+              margin-left: 110px;
+              background: url('../img/sprite.passport.png') -323px -70px;;
+              color: #bbb2b2;
+            }
+            margin-left: 80px;
+            width: 270px;
+            // height: 300px;
+            margin-left: 80px;
+            text-align: center;
+            .main_big_right_img{
+              cursor: pointer;
+              width: 40px;
+              height: 40px;
+              float: right;
+              background:url('../img/sprite.passport.png') no-repeat -317px -108px ;
+            }
+            .main_big_right_txt{
+              padding-top: 40px;
+              padding-bottom: 30px;
+              font-weight: bolder;
+            }
+            .main_big_right_flex{
+              margin-bottom: 20px;
+              .main_big_right_ewm{
+                // float: left;
+                img{
+                  width: 150px;
+                  height: 140px;
+                }
+              }
+              // .main_big_right_mark{
+              //   float: right;
+              //   width: 150px;
+              //   height: 140px;
+              //   background: chartreuse
+              //    url('../img/sprite.passport.png') no-repeat -10px -10px;
+              //   //  display: none;
+              // }
+            }
+            .main_big_right_l{
+              // margin-top: 150px;
+              display: inline-block;
+              width: 35px;
+              height: 35px;
+              background: url('../img/sprite.passport.png') no-repeat -474px  -30px;
+            }
+            .main_big_right_r{
+              display: inline-block;
+              width: 150px;
+              height: 35px;
+            }
+            .main_big_right_xz{
+              margin-top: 30px;
+              a{
+                color: red;
+              }
+            }
+          }
+          .main_big_right_mm{
+            display: none;
+            margin-left: 80px;
+            width: 270px;
+            // height: 300px;
+            margin-left: 80px;
+            // background-color: royalblue;
+            .main_big_right_sml_txt{
+              display: inline-block;
+              width: 120px;
+              height: 30px;
+              text-align: center;
+              line-height: 30px;
+              margin-left: 110px;
+              background: url('../img/sprite.passport.png') -323px -70px;;
+              color: #bbb2b2;
+            }
+            .main_big_right_img{
+              cursor: pointer;
+              width: 40px;
+              height: 40px;
+              float: right;
+              background:url('../img/sprite.passport.png') no-repeat -365px -108px ;
+            }
+            .main_big_right_txt{
+              font-size: 18px;
+              margin-top: 15px;
+              position: relative;
+              .main_big_right_number{
+                float: right;
+                margin-right: 10px;
+                color: #a0a0a0;
+                cursor: pointer;
+              }
+              .mian_big_right_num{
+                position: absolute;
+                right: 10px;
+                top: 20px;
+                width: 120px;
+                height: 250px;
+                padding: 3px 10px;
+                border: 1px solid black;
+                border-radius: 10px;
+                font-size: 14px;
+                background-color: white;
+                display:none;
+              }
+            }
+            
+            #option {
+              width: 100%;
+              height: 27px;
+              line-height: 27px;
+              border-radius: 13px;
+              font-size: 14px;
+              margin-top: 20px;
+              margin-bottom: 20px;
+              background: url('../img/sprite.passport.png') no-repeat -323px 0;
+              li {
+                float: left;
+                text-align: center;
+                width: 50%;
+                /*background: white;*/
+                height: 27px;
+                cursor: pointer;
+                color: #4f4f4f;
+                font-size: 16px;
+                border-radius: 20px;
+                font-weight: bold;
+                
+              }
+              .active {
+                  background:#333333;
+                  color: white;
+                  border-radius: 20px;
+                }
+            }
+            .normal{
+              input{
+                display: inline-block;
+                width: 270px;
+                height: 43px;
+                border: 1px solid #dbdbdb;
+                color: #9a9a9a;
+                color: rgba(0,0,0,.5);
+                text-indent: 10px;
+                font-size: 16px;
+                line-height: 1.2;
+                margin: 10px 0;
+              }
+              .log_sub{
+                background-color: #ff1901;;
+              }
+              
+              .log_fog{
+                text-align: right;
+                color: #b9b9b9;
+                .log_rem{
+                  float: left;
+                }
+                /*记住密码勾选框*/
+                  input[type="checkbox"] {
+                    width: 12px;
+                    height: 12px;
+                    display: inline-block;
+                    text-align: center;
+                    vertical-align: middle;
+                    position: relative;
+                  }
+                  input[type="checkbox"]::before {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    background: #fff;
+                    width: 100%;
+                    height: 100%;
+                    border: 1px solid #dedede;
+                  }
+                  input[type="checkbox"]:checked::before {
+                    content: "\2713";
+                    background-color: white;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    border: 1px solid #dedede;
+                    color: #898989;
+                    font-size: 12px;
+                    font-weight: bold;
+                  }
+                a{
+                  color: #ff1901;
+                }
+              }
+              .log_bg{
+                display: flex;
+                justify-content: space-around;
+                margin-top: 20px;
+                li{
+                  width: 35px;
+                  height: 35px;
+                  &:nth-child(1){
+                    background: url('../img/sprite.passport.png')  -522px -70px;
+                  }
+                  &:nth-child(2){
+                    background: url('../img/sprite.passport.png')  -560px -70px;
+                  }
+                  &:nth-child(3){
+                    background: url('../img/sprite.passport.png')  -450px -70px;
+                  }
+                }
+                
+              }
+            }
+
+            .phone{
+              display: none;
+              input{
+                display: block;
+                width: 270px;
+                height: 43px;
+                border: 1px solid #dbdbdb;
+                color: #9a9a9a;
+                text-indent: 10px;
+                font-size: 16px;
+                line-height: 1.2;
+                margin: 10px 0;
+              }
+              .inp1,.inp2{
+                display: inline-block;
+                width: 132px;
+                height: 43px;
+              }
+              .inp2{
+                font-size: 12px;
+              }
+              .log_sub,.inp2{
+                background-color: #ff1901;;
+              }
+              .log_fog{
+                text-align: right;
+                color: #b9b9b9;
+                a{
+                  color: #ff1901;
+                }
+              }
+              .log_bg{
+                display: flex;
+                justify-content: space-around;
+                margin-top: 20px;
+                li{
+                  width: 35px;
+                  height: 35px;
+                  &:nth-child(1){
+                    background: url('../img/sprite.passport.png')  -522px -70px;
+                  }
+                  &:nth-child(2){
+                    background: url('../img/sprite.passport.png')  -560px -70px;
+                  }
+                  &:nth-child(3){
+                    background: url('../img/sprite.passport.png')  -450px -70px;
+                  }
+                }
+                
+              }
+            }
+          }
+        }
+      }
+    }
+}
+

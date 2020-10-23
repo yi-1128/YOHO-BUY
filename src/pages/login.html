@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户登录</title>
+    <link rel="stylesheet" href="../lib/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/login.min.css">
+    <link rel="stylesheet" href="../css/iconfont.css">
+    <link rel="stylesheet" href="../css/public.min.css">
+</head>
+<body>
+    <!-- header  -->
+    <header  class="container" id="head">
+        <a href="../index.html" class="a_logo">
+            <img src="../img/logo-en.png" alt="">
+        </a>
+        <div class="h_right">
+            <ul>
+                <li>
+                    Hi~ <a href="./login.min.html">[请登录]</a>   <a href="./registor.min.html">[免费注册] </a>
+                </li>
+                <li class="li-two li_grey  li_grey1">
+                    <a href="">MY有货<span class="iconfont icon-xiasanjiaoxing
+                        "></span></a>
+                    <div class="li_mark">
+                        <p>
+                            我的收藏
+                        </p>
+                        <p>
+                            优惠券
+                        </p>
+                    </div>
+                </li>
+                <li class="li-two">
+                    <a href="">订单中心
+                    </a>
+                </li>
+                <li class="service li_grey li_grey2">
+                    <a href="">客户服务<span class="iconfont icon-xiasanjiaoxing
+                        "></span></a>
+                    <div class="li_mark">
+                        <p>
+                            在线客服
+                        </p>
+                        <p>
+                            服务中心
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!-- 主体 -->
+    <main>
+        <div class="container-fluid main_box">
+            <div class="container main">
+                <h1 class="warn">为保障账户安全与正常使用，依《网络安全法》相关要求，会员账号需绑定手机号。<span class="warn_red">如您尚未绑定手机号，请尽快完成，</span>感谢您对Yoho!Buy有货的理解与支持！</h1>
+                <div class="main_big">
+                    <div class="main_big_left">
+                        <img src="../img/020a0b6e7ff908d0c2bc4045b4fef42b9f.png" alt="">
+                    </div>
+                    <div class="main_big_right">
+                        <!-- 二维码登录 -->
+                        <div class="main_r main_big_right_sml">
+                            <span class="main_big_right_sml_txt">密码登录在这里</span>
+                            <div class="main_big_right_img"></div>
+                            <h2 class="main_big_right_txt">手机扫码，安全登录</h2>
+                            <div class="main_big_right_flex">
+                                <div class="main_big_right_ewm">
+                                    <img src="../img/cover-qr-large.png" alt="">
+                                </div>
+                                <!-- <div class="main_big_right_mark">
+                                    
+                                </div> -->
+                            </div>
+                            <div class="main_big_right_sys">
+                                <span class="main_big_right_l"></span>
+                                <span class="main_big_right_r">打开手机Yoho!Buy有货扫一扫登录</span>
+                            </div>
+                            <h3 class="main_big_right_xz"><a href="">下载Yoho!Buy有货手机APP</a></h3>
+                            
+                        </div>
+
+                        <!-- 密码登录  -->
+                        <div class="main_big_right_mm"> 
+                            <span class="main_big_right_sml_txt">扫码登录更安全</span>
+                            <div class="main_big_right_img"></div>
+                            <div class="main_big_right_txt">会员登录
+                                <span class="main_big_right_number">中国 +86</span>
+                                <ul class="mian_big_right_num">
+                                    <li>中国 +86</li>
+                                    <li>中国澳门 +853</li>
+                                    <li>中国台湾 +886</li>
+                                    <li>中国香港 +852</li>
+                                    <li>澳大利亚 +61
+                                    <li> 韩国 +82</li>
+                                    <li>加拿大 +1</li>
+                                    <li>马来西亚 +60</li>
+                                    <li>美国 +1</li>
+                                    <li>日本 +81</li>
+                                    <li>新加坡 +65</li>
+                                    <li>英国 +44</li>
+                                    
+                                </ul>
+                            </div>
+                            
+                            <ul id="option">
+								<li class="active login_left">普通登录</li>
+								<li class="login_right">手机验证码登录</li>
+                            </ul>
+                            <!-- 普通登录  -->
+                            <div class="normal">
+                                <p class="yz"><input type="text" name="" id="uname" value="邮箱/手机号码"><span></span></p>
+                                <p><input type="password" name="" id="upwd" value="密码"><span></span></p>
+                                <input type="submit" value="登录" class="log_sub">
+                                
+                                <p class="log_fog"><span class="log_rem">
+                                    <input type="checkbox" name="vehicle" value="Bike" />记住登录状态
+                                </span>忘记密码？| <a href="./registor.min.html">快速注册</a></p>
+                                <ul class="log_bg">
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                </ul>
+                            </div>
+                            <!-- 手机验证码登录 -->
+                            <div class="phone">
+                                <input type="text" name="" id="uphone" value="手机号码">
+                                <input type="text" name="" id="" value="短信验证码" class="inp1">
+                                <input type="text" name="" id="" value="获取短信验证码" class="inp2">
+                                <input type="submit" value="登录" class="log_sub">
+                                <p class="log_fog">忘记密码？| <a href="./registor.html">快速注册</a></p>
+                                <ul class="log_bg">
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                    <li><a href=""></a></li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </main>
+
+    <!-- footer -->
+    <footer class="container-fluid">
+        <div class="foot container">
+            <div class="foot-top">
+                <div class="foot-icon">
+                    <span class="iconfont icon-zhengpinbaozhang2"></span>
+                    <i>100%</i>
+                    <b>品牌正品</b>
+                </div>
+                <div class="foot-icon">
+                    <span class="iconfont icon-wuliu"></span>
+                    <i>100%</i>
+                    <b>品牌正品</b>
+                </div>
+                <div class="foot-icon">
+                    <span class="iconfont icon-weixin"></span>
+                    <i>100%</i>
+                    <b>品牌正品</b>
+                </div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+                <div class="foot-icon"></div>
+            </div>
+            <div class="foot-list">
+                <ul>
+                    <li><b>新手专区</b></li>
+                    <li>注册登录</li>
+                    <li>购物结算</li>
+                    <li>下单支付</li>
+                    <li>收货评价</li>
+                </ul>
+                <ul>
+                    <li><b>新手专区</b></li>
+                    <li>注册登录</li>
+                    <li>购物结算</li>
+                    <li>下单支付</li>
+                    <li>收货评价</li>
+                </ul>
+                <ul>
+                    <li><b>新手专区</b></li>
+                    <li>注册登录</li>
+                    <li>购物结算</li>
+                    <li>下单支付</li>
+                    <li>收货评价</li>
+                </ul>
+                <ul>
+                    <li><b>新手专区</b></li>
+                    <li>注册登录</li>
+                    <li>购物结算</li>
+                    <li>下单支付</li>
+                    <li>收货评价</li>
+                </ul>
+                <ul>
+                    <li><b>新手专区</b></li>
+                    <li>注册登录</li>
+                    <li>购物结算</li>
+                    <li>下单支付</li>
+                    <li>收货评价</li>
+                </ul>
+                <ul>
+                    <li><b>新手专区</b></li>
+                    <li>注册登录</li>
+                    <li>购物结算</li>
+                    <li>下单支付</li>
+                    <li>收货评价</li>
+                </ul>
+                <ul>
+                    <li><b>新手专区</b></li>
+                    <li>注册登录</li>
+                    <li>购物结算</li>
+                    <li>下单支付</li>
+                    <li>收货评价</li>
+                </ul>
+            </div>
+            <div class="foot-link">
+                <div class="foot-link-left">
+                    <a href="">
+                        <img src="../img/ebsIcon-new.png" alt="">
+                    </a>
+                    <a href="">
+                        <img src="../img/credit-flag3.png" alt="">
+                    </a>
+                    <a href="">
+                        <img src="../img/isc2.png" alt="">
+                    </a>
+                </div>
+                <div class="foot-link-right">
+                    <ul>
+                        <li><a href="">返回首页</a> | </li>
+                        <li><a href="">YOHO!BUY 有货</a> | </li>
+                        <li><a href="">穿衣搭配（男生版）</a> | </li>
+                        <li><a href="">隐私条款</a> | </li>
+                        <li><a href="">友情链接</a> | </li>
+                        <li><a href="">YOHO!BUY 有货</a> | </li>
+                        <li><a href="">穿衣搭配（女生版）</a> | </li>
+                        <li><a href="">潮流品类大全</a> | </li>
+                        <li><a href="">返回首页</a> | </li>
+                        <li><a href="">联系我们</a> | </li>
+                        <li><a href="">商家入驻</a> | </li>
+                        <li><a href="">返回首页</a> | </li>
+                        <li><a href="">潮流品类大全</a> | </li>
+                        <li><a href="">潮流商品大全</a> | </li>
+                        <li><a href="">返回首页</a> | </li>
+                        <li><a href="">返回首页</a> | </li>
+                        <li><a href="">潮流人气</a> | </li>
+                        <li><a href="">潮流视频</a> | </li>
+                        <li><a href="">潮流潮牌</a> | </li>
+                        <li><img src="../img/police.png" alt=""><a href="">苏公网安备 32010502010132号</a> | </li>
+                        <li><a href="">出版物经营许可证</a> | </li>
+                        <li><a href="">苏B2-20120395</a> | </li>
+                        <li><a href="">食品经营许可证</a></li>
+                    </ul>
+                </div>               
+            </div>
+            <p class="foot-bot">
+                CopyRight © 2007-2020 南京新与力文化传播有限公司
+                <a href="">苏公网安备 32010502010132号</a>
+                NewPower Co. 版权所有 江苏省南京市建邺区嘉陵江东街18号南京国家广告产业园5栋17，18楼 025-87781000
+            </p>
+        </div>
+    </footer>
+
+    <!-- 回到顶部按钮 -->
+    <div class="to_top">
+        <p>
+            <img src="../img/icon_sweep.png" alt="" class="to_top_ewm"> 
+            <span class="to_top_mark">
+                <b class="mark_ewm">
+                    <img src="../img/qr-wenle.png" alt="">
+                    <i>微信扫一扫</i>
+                    <i>关注公众号，送球鞋</i>
+                </b>
+                
+                <b class="mark_ewm">
+                    <img src="../img/qr-wenle.png" alt="">
+                    <i>微信扫一扫</i>
+                    <i>关注公众号，送球鞋</i>
+                </b>
+            </span>
+        </p>
+        <a class="to-top">
+            <img src="../img/icon_back.png" alt="">
+        </a>
+
+    </div>
+
+    <script src="../lib/jquery-1.12.4.min.js"></script>
+    <script src="../lib/bootstrap.min.js"></script>
+    <script src="../lib/jquery.cookie.js"></script>
+    <!-- 回到顶部插件 -->
+    <script src="../lib/jquery.toTop.min.js"></script>
+    <script src="../js/public.min.js"></script>
+    <script src="../js/login.min.js"></script>
+</body>
+</html>
